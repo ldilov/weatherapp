@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context="com.example.copperfield.weatherapp.MainActivity">
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Sofia,BG"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorBackground"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tempText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10 deg"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rainy"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:weightSum="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/colorWhite"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/thumbnail3h"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="След 3 часа"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/tempText3h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="10 deg"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/descriptionText3h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Rainy"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/colorWhite"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/thumbnail6h"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="След 6 часа"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/tempText6h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="10 deg"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/descriptionText6h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Rainy"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Monday"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/btnFullInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="fullForecast"
+                    android:text="Пълна прогноза" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Седмична прогноза" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Годишна прогноза" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
