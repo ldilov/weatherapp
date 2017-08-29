@@ -120,17 +120,11 @@ Activity на което предаваме изтеглената от MainActi
 
 *3.Снимки*
 
-![C:\\Users\\Nullcode\\Desktop\\screenshots -
-Android\\device-2017-06-18-095320.png](./screenshots/image1.png){width="5.260416666666667in"
-height="9.362576552930884in"}
+![Screen1](./screenshots/image1.png)
 
-> ![C:\\Users\\Nullcode\\Desktop\\screenshots -
-> Android\\device-2017-06-18-095354.png](./screenshots/image2.png){width="5.677083333333333in"
-> height="11.635416666666666in"}
+> ![Screen2](./screenshots/image2.png)
 >
-> ![C:\\Users\\Nullcode\\Desktop\\screenshots -
-> Android\\device-2017-06-18-095409.png](./screenshots/image3.png){width="5.677083333333333in"
-> height="10.104166666666666in"}
+> ![Screen3](./screenshots/image3.png)
 
 *3.Изисквания*
 
