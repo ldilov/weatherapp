@@ -121,21 +121,21 @@ Activity на което предаваме изтеглената от MainActi
 *3.Снимки*
 
 ![C:\\Users\\Nullcode\\Desktop\\screenshots -
-Android\\device-2017-06-18-095320.png](./myMediaFolder/media/image1.png){width="5.260416666666667in"
+Android\\device-2017-06-18-095320.png](./screenshots/image1.png){width="5.260416666666667in"
 height="9.362576552930884in"}
 
 > ![C:\\Users\\Nullcode\\Desktop\\screenshots -
-> Android\\device-2017-06-18-095354.png](./myMediaFolder/media/image2.png){width="5.677083333333333in"
+> Android\\device-2017-06-18-095354.png](./screenshots/image2.png){width="5.677083333333333in"
 > height="11.635416666666666in"}
 >
 > ![C:\\Users\\Nullcode\\Desktop\\screenshots -
-> Android\\device-2017-06-18-095409.png](./myMediaFolder/media/image3.png){width="5.677083333333333in"
+> Android\\device-2017-06-18-095409.png](./screenshots/image3.png){width="5.677083333333333in"
 > height="10.104166666666666in"}
 
 *3.Изисквания*
 
 Изисква се Android v.7.1
 
-*4. За разработчици
+*4. За разработчици*
 
 Използвано е Android studio 2.3.2
